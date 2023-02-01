@@ -21,6 +21,13 @@ Liste des membres
 </ul
 {% endfor %}
 
-
+<h2>Matchs</h2>
+<ul>
+{% for game in games_list %}
+    <li>{{ game.date }}</li>
+{% empty %}
+    <li>There are no games scheduled</li>
+{% endfor %}
+</ul>
 
 {% endblock %}

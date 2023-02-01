@@ -85,6 +85,17 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-extensions"
+version = "3.2.1"
+description = "Extensions for Django"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+Django = ">=3.2"
+
+[[package]]
 name = "django-model-utils"
 version = "4.2.0"
 description = "Django model mixins and utilities"
@@ -303,7 +314,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "da053855e6769bdb4e45d0eb806bfed316bb764dfa799bcb59b2562b882460c6"
+content-hash = "cba0c8eb8960c84bca16f5c8cc730bd156cd560adebdda09bae6f2cb21bafa93"
 
 [metadata.files]
 appnope = []
@@ -314,6 +325,7 @@ backcall = []
 colorama = []
 decorator = []
 django = []
+django-extensions = []
 django-model-utils = []
 executing = []
 ipython = []

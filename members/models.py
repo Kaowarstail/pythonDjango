@@ -15,7 +15,7 @@ class Team(TimeStampedModel):
     club = models.ForeignKey("club.Club", related_name="teams", on_delete=models.PROTECT)
 
     def __str__(self):
-        return self.name
+        return f"{self.club} {self.name}"
 
 
 class Member(TimeStampedModel):

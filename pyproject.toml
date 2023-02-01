@@ -14,4 +14,5 @@ python = "^3.8"
 django-model-utils = "^4.2.0"
 tzdata = "^2022.6"
 ipython = "^8.7.0"
+django-extensions = "^3.2.1"
 [tool.poetry.dev-dependencies]
